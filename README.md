@@ -1,4 +1,4 @@
-<p align="center"><img src="https://raw.githubusercontent.com/hibit-dev/db-containerization/master/images/preview.png" alt="Setting up MySQL and Redis with Docker Compose"></p>
+<p align="center"><img src="https://github.com/hibit-dev/db-containerization/blob/608ff47851fddc7880b43e03a2c3764e76224075/images/preview.png" alt="Setting up MySQL and Redis with Docker Compose"></p>
 
 # Setting up MySQL and Redis with Docker Compose
 Docker has transformed the way developers deploy applications, offering an efficient method to package and distribute software. One common use case involves setting up a MySQL database alongside a Redis service. MySQL serves as a reliable relational database management system, while Redis acts as a high-performance in-memory key-value store. With Docker and Docker Compose, you can get both of these services up and connected in just a few steps. This article will guide you through creating a Docker environment that includes MySQL and Redis, giving you a smooth and reliable setup without all the extra configuration.  
