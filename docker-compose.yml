@@ -9,7 +9,7 @@ services:
       MYSQL_ROOT_PASSWORD: root_password
     volumes:
       - ./mysql8/conf.d:/etc/mysql/conf.d
-      - mysql_data:/var/lib/mysql  # Named volume for persistent storage
+      - mysql_data:/var/lib/mysql # Named volume for persistent storage
  
   redis:
     image: redis:7.4.1
@@ -19,7 +19,7 @@ services:
       - "6379:6379"
     volumes:
       - ./redis/redis-7.4.conf:/usr/local/etc/redis/redis.conf
-      - redis_data:/data  # Optional: named volume for Redis data persistence
+      - redis_data:/data  # Named volume for Redis data persistence
  
 volumes:
   mysql_data:
