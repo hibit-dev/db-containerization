@@ -9,6 +9,7 @@ services:
       MYSQL_ROOT_PASSWORD: root_password
     volumes:
       - ./mysql8/conf.d:/etc/mysql/conf.d
+      - ./mysql8/backups:/etc/mysql/backups
       - mysql_data:/var/lib/mysql # Named volume for persistent storage
  
   redis:
